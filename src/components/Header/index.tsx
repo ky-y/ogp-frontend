@@ -21,7 +21,7 @@ const Header: FC = () => {
                             TOP
                         </Link>
                     </li>
-                    <li>
+                    <li className={ path === "/auth" ? scss.current : "" }>
                         <Link href="/auth">
                             Login / Sign Up
                         </Link>
