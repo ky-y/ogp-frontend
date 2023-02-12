@@ -11,8 +11,10 @@ const Header: FC = () => {
         <header className={ scss.header }>
             <div className="inner">
                 <h1>
-                    <span>ky-y.</span>
-                    <span>OGP</span>
+                    <Link href="/">
+                        <span>ky-y.</span>
+                        <span>OGP</span>
+                    </Link>
                 </h1>
 
                 <ul>
