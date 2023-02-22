@@ -40,7 +40,7 @@
         ul {
             display: flex;
             align-items: center;
-            
+
             li {
                 position: relative;
 
@@ -104,5 +104,9 @@
                 }
             }
         }
+    }
+
+    & ~ main {
+        margin-top: 3.75rem;
     }
 }
