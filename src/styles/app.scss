@@ -11,10 +11,16 @@ body {
     width: 92.5%;
     max-width: 1500px;
     margin: 0 auto;
-}
 
-.inner-sm {
-    width: 92.5%;
-    max-width: 750px;
-    margin: 0 auto;
+    &-md {
+        width: 92.5%;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    &-sm {
+        width: 92.5%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
 }
