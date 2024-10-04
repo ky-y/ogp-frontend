@@ -2,9 +2,9 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { FC } from "react";
 
-import scss from "./index.module.scss";
+import scss from "./Header.module.scss";
 
-const Header: FC = () => {
+export const Header: FC = () => {
     const path = useRouter().pathname;
 
     return (
@@ -33,4 +33,3 @@ const Header: FC = () => {
         </header>
     );
 };
-export default Header;
